@@ -1,0 +1,14 @@
+Commands
+========
+
+000 - Copy    - dst, src
+001 - Add     - dst, src
+010 - And     - dst, src
+011 - Compare - dst, src
+100 - Negate  - dst, src
+101 - unused
+110 - Jump    - dst, src
+111 - Return  - src
+
+Memory is 8 bytes
+Addressing memory requires 6 bits
